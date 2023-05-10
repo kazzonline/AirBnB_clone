@@ -113,6 +113,6 @@ Most commands have several options or arguments that can be used when executing 
 
 AUTHORS:
 
-AZEEZ OLATUNJI - KAZZONLINE
+AZEEZ OLATUNJI - KAZZONLINE.github
 
-Emmanuel Hope Joel - Kinghope007
+EMMANUEL HOPE JOEL - Kinghope007.github
