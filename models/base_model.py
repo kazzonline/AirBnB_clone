@@ -7,7 +7,7 @@ import uuid
 from datetime import datetime
 from models import storage
 
-class Basemodel:
+class BaseModel:
     """
     class from which other attributes will inherits and class too
     """
@@ -30,7 +30,7 @@ class Basemodel:
                     self.__dict__[key] = kwargs[key]
         else:
             self.id = str(uuid.uuid4())
-            self.created_at = daterime.now()
+            self.created_at = datetime.now()
             self.updated_at = datetime.now()
             storage.new(self)
 
